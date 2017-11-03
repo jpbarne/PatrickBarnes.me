@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type ="text/javascript">
+    window.onload = function() {
+      function createDiv(str) {
+        var doc = document.createElement("div");
+        doc.textContent = str;
+        doc.setAttribute("id", "node");
+
+        document.body.appendChild(doc);
+      }
+
+      createDiv("Hello World");
+    }
+  </script>
+
+  <style>
+    * {background-color: blue;}
+
+    #node {
+      float: left;
+      position: absolute;
+
+      width: 100px;
+      height: 100px;
+
+      background-color: aliceblue;
+      border: thin solid white;
+    }
+  </style>
+
+  <meta charset="iso-8859-1" />
+  <title>Homepage of Patrick Barnes</title>
+
+</head>
+</html>
