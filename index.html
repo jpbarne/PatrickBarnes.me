@@ -1,40 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script type ="text/javascript">
-    window.onload = function() {
-      function createDiv(str) {
-        var doc = document.createElement("div");
-        doc.textContent = str;
-        doc.setAttribute("id", "node");
-
-        document.body.appendChild(doc);
-      }
-
-      createDiv("Hello World");
-    }
-  </script>
-
-  <style>
-    * {background-color: blue;}
-
-    #node {
-      float: left;
-      position: absolute;
-
-      width: 100px;
-      height: 100px;
-
-      background-color: aliceblue;
-      border: thin solid white;
-    }
-  </style>
-
-  <meta charset="iso-8859-1" />
-  <title>Homepage of Patrick Barnes</title>
-
+	<title>Welcome!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+
+<div class="header">
+	<h1>Personal Website of J. Patrick Barnes</h1>
+	<p>B.S. in Computer Science - Clemson University Class of 2018</p>
+</div>
+
+<ul>
+	<li><a class="active" href="#home">Home</a></li>
+	<li><a href="#contact">Contact</a></li>
+	<li><a href="#about">About</a></li>
+</ul>
+
 
 </body>
 </html>
