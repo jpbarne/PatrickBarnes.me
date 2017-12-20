@@ -30,9 +30,26 @@
 	width: 20%;
 }
 
-body { 
-	background-color: #0B3C5D; 
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+.video_proj {
+	background-color: #D9B310;
+	border-radius: 15px;
+	margin: auto;
+	width: 25%;
+	float: left;
+	position: relative;
+	padding: 5px;
+	margin: 5px;
+}
+
+iframe {
+	width:95%;
+	position: relative;
+	float: none;
+}
+
+body {
+	background-color: #0B3C5D;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 ul {
@@ -46,10 +63,10 @@ ul {
 
 li {
  	display: inline;
-	float: left; 
+	float: left;
 }
 
-li a { 
+li a {
 	display: block;
 	color: #1D2731;
 	text-align: center;
