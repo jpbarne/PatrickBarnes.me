@@ -1,72 +1,35 @@
-/*
-	Color Reference:
-		Prussian Blue	#0B3C5D
-		Sky Blue		#328CC1
-		Gold Leaf		#D9B310
-		Ivory Black		#1D2731
-*/
+* {
+ font-family: 'Arvo', serif;
 
-
-
-.header {
-	background-color: #D9B310;
-	border-radius: 25px;
-	height: 100px;
-	width: 90%;
-	padding: 5px;
-	margin-bottom: 5px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
-
-.left_panel {
-	background-color: #328CC1;
-	text-align: center;
-	border-radius: 15px;
-	float: left;
-	position: relative;
-	margin: 5px;
-	width: 20%;
-}
-
-.video_proj {
-	background-color: #D9B310;
-	border-radius: 15px;
-	margin: auto;
-	width: 25%;
-	float: left;
-	position: relative;
-	padding: 5px;
-	margin: 5px;
-}
-
-iframe {
-	width:95%;
-	position: relative;
-	float: none;
 }
 
 body {
-	background-color: #0B3C5D;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    url("assets/Serenity.jpg");
+  background-size: auto;
 }
 
-ul {
-	list-style-type: none;
-	border-radius: 15px;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #328CC1;
+.logo img{
+  height: 75px;
+  width: 100px;
+  margin-top: 10px;
+  float: left;
 }
 
-li {
- 	display: inline;
-	float: left;
+.menu ul {
+  list-style-type: none;
+  float: right;
 }
 
-li a {
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
 	display: block;
 	color: #1D2731;
 	text-align: center;
@@ -74,12 +37,6 @@ li a {
 	text-decoration: none;
 }
 
-li a:hover:not(.active) {
-	background-color: #0B3C5d;
-	color: #FFF;
-}
-
-li a.active {
-	background-color: #D9B310;
-	color: #1D2731;
+.menu ul li:hover {
+  background-color: #666;
 }
