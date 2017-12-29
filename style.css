@@ -86,5 +86,43 @@ body {
 
   text-align: center;
   color: white;
-  text-decoration-style: solid;
+}
+
+.video-project {
+  width: 45%;
+  height: 315px;
+  padding: 15px;
+
+  clear: both;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+  background-color: rgba(0, 0, 0, 0.7);
+  border-bottom-right-radius: 25px;
+
+  text-align: center;
+  color: white;
+}
+
+.video-project iframe {
+  width: 100%;
+}
+
+.video-descr {
+  width: 45%;
+  height: 315px;
+  padding: 15px;
+
+  float: left;
+  position: relative;
+  margin-right: auto;
+  margin-bottom: 10px;
+
+
+  background-color: rgba(0, 0, 0, 0.7);
+  border-bottom-right-radius: 25px;
+
+  text-align: center;
+  color: white;
 }
