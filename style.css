@@ -11,7 +11,10 @@ body {
     ),
     url("assets/Serenity.jpg");
   background-size: auto;
+  overflow: auto;
 }
+
+body, html {height: 100%;}
 
 .top-bar {
   text-align: center;
@@ -163,11 +166,13 @@ body {
 
 
 .download-link {
-  width: 220px;
-  margin: auto;
+  width: 70%;
+  height: 80%;
+  overflow: auto;
+  margin: 30px auto;
   padding: 15px;
 
-  border: 4px solid white;
+  border: 1px solid white;
   background-color: rgba(0, 0, 0, 0.7);
   border-bottom-right-radius: 25px;
 }
